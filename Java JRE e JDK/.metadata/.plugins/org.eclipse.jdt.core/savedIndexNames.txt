@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\NDlem\OneDrive\Documentos\Aulas Alura\Java JRE e JDK\.metadata\.plugins\org.eclipse.jdt.core
+2016769120.index
+3460880079.index

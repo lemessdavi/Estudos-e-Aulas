@@ -1,0 +1,13 @@
+
+public class TesteSaca {
+
+	public static void main(String[] args) throws SaldoInsuficienteException{
+	
+		Conta c = new ContaCorrente(12, 12);
+		
+		c.deposita(250);
+		c.saca(270);
+		
+		System.out.println(c.getSaldo());
+	}
+}

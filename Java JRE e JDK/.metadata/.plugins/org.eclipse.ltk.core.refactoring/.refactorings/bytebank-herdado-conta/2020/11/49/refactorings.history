@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;valor_imposto&apos; in &apos;CalculadorImposto&apos; to &apos;totalImposto&apos;&#x0D;&#x0A;- Original project: &apos;bytebank-herdado-conta&apos;&#x0D;&#x0A;- Original element: &apos;CalculadorImposto.valor_imposto&apos;&#x0D;&#x0A;- Renamed element: &apos;CalculadorImposto.totalImposto&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;valor_imposto&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{CalculadorImposto.java[CalculadorImposto^valor_imposto" name="totalImposto" references="true" setter="false" stamp="1606741617596" textual="false" version="1.0"/>
+</session>

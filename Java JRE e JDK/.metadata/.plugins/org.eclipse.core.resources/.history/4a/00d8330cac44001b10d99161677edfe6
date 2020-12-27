@@ -1,0 +1,13 @@
+
+public class TesteSaca {
+
+	public static void main(String[] args) {
+	
+		Conta c = new Conta();
+		
+		c.deposita(250);
+		c.saca(200);
+		
+		c.getSaldo();
+	}
+}
