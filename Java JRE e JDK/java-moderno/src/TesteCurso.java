@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class TesteCurso {
+	List<Curso> cursos = new ArrayList<Curso>();
+	
+	cursos.add(new Curso("Python", 45));
+	cursos.add(new Curso("JavaScript", 150));
+	cursos.add(new Curso("Java 8", 113));
+	cursos.add(new Curso("C", 55));
+	
+}

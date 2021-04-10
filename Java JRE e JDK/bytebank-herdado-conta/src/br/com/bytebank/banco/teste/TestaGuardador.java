@@ -17,7 +17,7 @@ public class TestaGuardador {
 		guardador.adiciona(cc2);
 		
 		System.out.println(guardador.getQuantidadeDeElementos());
-		System.out.println(guardador.getElementoPelaPosicao(1));
+		//System.out.println(guardador.getElementoPelaPosicao(1));
 		
 	}
 

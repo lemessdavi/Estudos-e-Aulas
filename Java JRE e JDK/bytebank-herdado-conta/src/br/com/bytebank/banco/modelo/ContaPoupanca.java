@@ -13,8 +13,7 @@ public class ContaPoupanca extends Conta {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return "Conta Poupanca " + super.toString();
+		return "ContaPoupanca, " + super.toString();
 	}
 	
 }

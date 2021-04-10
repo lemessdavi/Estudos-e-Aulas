@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="/Users/lemes/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955" stamp="1617845365465"/>
     <entry loc="C:\Program Files\Java\jdk-12.0.2" stamp="1564967813638"/>
+    <entry loc="/Users/lemes/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre" stamp="1617845365464"/>
     <entry loc="C:\Users\NDlem\AppData\Local\Temp\eoiA715.tmp\plugins\org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_14.0.2.v20200815-0932" stamp="1604008691617"/>
-    <entry loc="C:\Program Files\Java\jdk-15.0.1" stamp="1604083387653"/>
+    <entry loc="C:\Program Files\Java\jdk-15.0.1" stamp="1605066774693"/>
     <entry loc="C:\Users\NDlem\AppData\Local\Temp\eoiA715.tmp\plugins\org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_14.0.2.v20200815-0932\jre" stamp="1604008691608"/>
 </dirs>

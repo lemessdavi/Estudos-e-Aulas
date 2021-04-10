@@ -1,6 +1,7 @@
-backgroundColor=36,36,36
-commentColor=153,150,139
+backgroundColor=25,29,31
+commentColor=199,221,12
 eclipse.preferences.version=1
-keyColor=246,243,232
-separatorColor=246,243,232
-valueColor=149,228,84
+keyColor=216,216,216
+overriddenByCSS=,separatorColor,keyColor,commentColor,valueColor,backgroundColor,
+separatorColor=216,216,216
+valueColor=255,198,0

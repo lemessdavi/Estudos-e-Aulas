@@ -1,28 +1,27 @@
 package br.com.bytebank.banco.modelo;
 
+import java.io.Serializable;
+
 /**
- * Classe abstrata que representa o molde de criação de contas no bytebank.
+ * Classe representa a moldura de uma conta
  * 
- * @author Lemes
- * @version 0.1
+ * @author Nico Steppat
+ *
  */
-
-
-public abstract class Conta implements Comparable<Conta> {
+public abstract class Conta extends Object implements Comparable<Conta>,Serializable{
 
     protected double saldo;
     private int agencia;
     private int numero;
-    private Cliente titular;
+    private transient Cliente titular;
     private static int total = 0;
-    
     
     /**
      * Construtor para inicializar o objeto Conta a partir da agencia e numero.
-     * @param agencia = numero da agencia
-     * @param numero = numero da conta
+     * 
+     * @param agencia
+     * @param numero
      */
-    
     public Conta(int agencia, int numero){
         Conta.total++;
         //System.out.println("O total de contas Ã© " + Conta.total);
@@ -35,22 +34,23 @@ public abstract class Conta implements Comparable<Conta> {
     public abstract void deposita(double valor);
 
     /**
-     * Valor precisa ser menor ou igual ao saldo.
+     * Valor precisa ser maior do que o saldo.
+     * 
      * @param valor
      * @throws SaldoInsuficienteException
      */
-    
-    public void saca(double valor) throws SaldoInsuficienteException {
+    public void saca(double valor) throws SaldoInsuficienteException{
+    	
         if(this.saldo < valor) {
-            throw new SaldoInsuficienteException("Saldo insuficiente, Saldo em conta: " + saldo);
-        }
-        this.saldo -= valor;
+            throw new SaldoInsuficienteException("Saldo: " + this.saldo + ", Valor: " + valor);
+        } 
+        
+        this.saldo -= valor;       
     }
 
     public void transfere(double valor, Conta destino) throws SaldoInsuficienteException{
-     this.saca(valor);
-     destino.deposita(valor);
-        
+        this.saca(valor);
+        destino.deposita(valor);
     }
 
     public double getSaldo(){
@@ -91,29 +91,32 @@ public abstract class Conta implements Comparable<Conta> {
 
     public static int getTotal(){
         return Conta.total;
-    }
-    
-    @Override
-    public String toString() {
-    	// TODO Auto-generated method stub
-    	return ("Agencia: " + this.agencia + " Numero: " + this.numero);
-    }
+    }  
     
     @Override
     public boolean equals(Object ref) {
     	
-    	Conta refConta = (Conta)ref;
-    	if(this.agencia != refConta.agencia){
-    		return false;
-    	}
-    	if(this.numero != refConta.numero){
-    		return false;
-    	}
-    	return true;
+    		Conta outra = (Conta) ref;
+    		
+    		if(this.agencia != outra.agencia) {
+    			return false;
+    		}
+    		
+    		if(this.numero != outra.numero) {
+    			return false;
+    		}
+    		
+    		return true;
     }
     
     @Override
     public int compareTo(Conta outra) {
-    	return Double.compare(this.saldo, outra.saldo);
+    		return Double.compare(this.saldo, outra.saldo);
     }
+    
+    @Override
+	public String toString() {
+		return "Numero: " + this.numero + ", Agencia: " + this.agencia + ", Saldo: " + this.saldo;
+	}
+
 }

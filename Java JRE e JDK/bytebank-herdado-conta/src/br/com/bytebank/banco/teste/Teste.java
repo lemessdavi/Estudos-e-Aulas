@@ -1,5 +1,6 @@
 package br.com.bytebank.banco.teste;
 
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -33,6 +34,8 @@ public class Teste {
 			lista.sort((c1, c2) -> Integer.compare(c1.getNumero(), c2.getNumero()));
 		
 			lista.forEach( (conta) -> System.out.println(conta));
+			
+			System.out.println(Charset.defaultCharset().displayName());
 			
 		}
 	}
