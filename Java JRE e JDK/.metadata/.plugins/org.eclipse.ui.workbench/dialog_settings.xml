@@ -1,52 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="450"/>
-		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT" value="506"/>
-		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
-		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
-		<list key="orderedElements">
-			<item value="org.eclipse.jdt.ui.edit.text.java.create.getter.setter"/>
-			<item value="org.eclipse.jdt.ui.edit.text.java.generate.constructor.using.fields"/>
-			<item value="org.eclipse.jdt.ui.JavadocView"/>
-			<item value="org.eclipse.ant.ui.views.AntView"/>
-			<item value="org.eclipse.ui.views.ResourceNavigator"/>
-		</list>
-		<list key="orderedProviders">
-			<item value="org.eclipse.ui.commands"/>
-			<item value="org.eclipse.ui.commands"/>
-			<item value="org.eclipse.e4.ui.parts"/>
-			<item value="org.eclipse.e4.ui.parts"/>
-			<item value="org.eclipse.e4.ui.parts"/>
-		</list>
-		<list key="textEntries">
-			<item value="1"/>
-			<item value="3"/>
-			<item value="1"/>
-			<item value="1"/>
-			<item value="1"/>
-		</list>
-		<list key="textArray">
-			<item value="getter"/>
-			<item value="constru"/>
-			<item value="constr"/>
-			<item value="cons"/>
-			<item value="javadoc"/>
-			<item value="view"/>
-			<item value="naviga"/>
-		</list>
-	</section>
-	<section name="ImportExportAction">
-		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard"/>
-		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
-			<item value="org.eclipse.jdt.ui.Java"/>
-		</list>
-	</section>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wb.swing.JFrame"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.wb"/>
-			<item value="org.eclipse.wb/org.eclipse.wb.swing"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.junit"/>
 		</list>
 	</section>
 </section>

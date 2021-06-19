@@ -3496,3 +3496,16 @@ java.io.FileNotFoundException: /Users/lemes/OneDrive/Documentos/Aulas Alura/Java
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.webclipse.evergreen 4 0 2021-04-10 22:10:23.778
+!MESSAGE Unable to parse manifest from http://www.genuitec.com/updates/devstyle/ci/devstyle.json
+!STACK 0
+Unexpected character (<) at position 0.
+	at org.json.simple.parser.Yylex.yylex(Yylex.java:610)
+	at org.json.simple.parser.JSONParser.nextToken(JSONParser.java:269)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:118)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:81)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:75)
+	at com.genuitec.eclipse.webclipse.evergreen.manifest.EvergreenManifestCache.updateManifestFromServer(EvergreenManifestCache.java:101)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.EvergreenManifestManager$ManifestUpdateJob.run(EvergreenManifestManager.java:139)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

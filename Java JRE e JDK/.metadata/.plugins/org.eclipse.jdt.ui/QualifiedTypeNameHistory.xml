@@ -29,6 +29,10 @@
     <fullyQualifiedTypeName name="Classes.Barbarian"/>
     <fullyQualifiedTypeName name="br.com.alura.tdd.modelo.Funcionario"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="br.com.alura.tdd.service.ReajusteServiceTest"/>
     <fullyQualifiedTypeName name="java.math.BigDecimal"/>
     <fullyQualifiedTypeName name="java.math.RoundingMode"/>
+    <fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.toolkit.taglets.ThrowsTaglet"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
 </qualifiedTypeNameHistroy>
